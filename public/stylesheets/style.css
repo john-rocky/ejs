@@ -1,0 +1,84 @@
+.body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.float{
+  float:left
+}
+
+
+.clear_float{
+  clear:both
+}
+
+.middle{
+  padding-top : 200px ;
+}
+
+.right{
+  float:right;
+}
+
+body.scroll {
+  overflow:auto;}
+
+#slide {
+width:356px;
+height:434px;
+Margin-left:0 auto;
+position:relative;
+}
+
+#slide img {
+position:absolute;
+left:0;
+top:0;
+}
+
+#slide2 {
+width:356px;
+height:434px;
+}
+
+#slide2 img {
+position:absolute;
+}
+
+i {
+display: block;
+width: 0px;
+height: 434px; 
+background: #000000; 
+position:static;
+}
+
+u{
+display: block;
+width: 100px;
+height: 100px; 
+background: #ccc; 
+position:relative;
+}
+
+B{
+display: block;
+width: 100px;
+height: 100px; 
+display: table-cell; 
+vertical-align: middle; 
+text-align: center;
+background: #ccc; 
+position:relative;
+}
+
+span.static {position:static; top:10px; left:10px }
+span.relative1 {position:relative; top:0px; left:0px }
+span.relative2 {position:absolute; top:445px; left:564px }
+span.relative3 {position:absolute; top:279px; left:824px }
+span.relative4 {position:absolute; top:746px; left:975px }
+span.relative5 {position:absolute; top:746px; left:530px }
