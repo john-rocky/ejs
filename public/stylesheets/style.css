@@ -80,5 +80,6 @@ span.static {position:static; top:10px; left:10px }
 span.relative1 {position:relative; top:0px; left:0px }
 span.relative2 {position:absolute; top:445px; left:564px }
 span.relative3 {position:absolute; top:279px; left:824px }
-span.relative4 {position:absolute; top:746px; left:975px }
-span.relative5 {position:absolute; top:746px; left:530px }
+span.relative4 {position:absolute; top:746px; left:854px }
+span.relative5 {position:absolute; top:746px; left:535px }
+span.relative6 {position:absolute; top:746px; left:10px }

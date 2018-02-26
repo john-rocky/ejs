@@ -62,7 +62,7 @@ $('i').velocity(
         progress: 5, // 進捗率
         complete: function(){console.log('end');}, // or null
         loop: 100, // 繰り返し : or false
-        delay: 500, // 開始、ループ時に遅延させる Ex.1000
+        delay: 7000, // 開始、ループ時に遅延させる Ex.1000
         display: 'none' // 表示・非表示 : false, 'none', 'block'
     }
 );
@@ -83,13 +83,13 @@ $('u').velocity(
         translateY: '-=150px'
     }, {
         // Option
-        duration:1000, // アニメーション時間
+        duration:1500, // アニメーション時間
         easing: 'ease-in-out', // イージング : linear, swing, ease, ease-in, ease-out, ease-in-out, [200, 15]
         begin: function(){console.log('start');}, // or null
         progress: 5, // 進捗率
         complete: function(){console.log('end');}, // or null
         loop: 100, // 繰り返し : or false
-        delay: 1000, // 開始、ループ時に遅延させる Ex.1000
+        delay: 7500, // 開始、ループ時に遅延させる Ex.1000
         display: 'none' // 表示・非表示 : false, 'none', 'block'
     }
 );
