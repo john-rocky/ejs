@@ -1,7 +1,0 @@
-{
-  "name": "ejs",
-  "description": "ejs",
-  "logo": "",
-  "keywords": ["node"],
-  "image": "heroku/nodejs"
-}
