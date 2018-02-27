@@ -1,6 +1,11 @@
-<ifModule mod_rewrite.c>
-RewriteEngine On
-RewriteCond %{HTTP_USER_AGENT} (iPhone|Android.*Mobile|Windows.*Phone) [NC]
-RewriteCond %{QUERY_STRING} !mode=pc
-RewriteRule ^$ /sp/ [R,L]
-</IfModule>
+RewriteEngine on
+
+RewriteCond %{REQUEST_URI} !/sp/
+RewriteCond %{HTTP_USER_AGENT} (iPod|iPhone|iPad|Android|Windows\ Phone)
+RewriteRule ^(.*)$ sp/$1 [R]
+RewriteBase /
+
+RewriteCond %{REQUEST_URI} /sp/
+RewriteCond %{HTTP_USER_AGENT} !(iPod|iPhone|iPad|Android|Windows\ Phone)
+RewriteRule ^sp/(.*)$ $1 [R]
+RewriteBase /
