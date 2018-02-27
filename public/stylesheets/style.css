@@ -28,11 +28,11 @@ body.scroll {
   overflow:auto;}
 
 .center{
-  margin:0 auto;
+text-align: center;
 }
 
 .text{
-  margin-left:10 auto
+  padding-left:10px
 }
 
 #slide {
