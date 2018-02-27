@@ -1,3 +1,4 @@
+<IfModule mod_rewrite.c>
 RewriteEngine on
  
 #topページ転送
@@ -10,3 +11,4 @@ RewriteCond %{REQUEST_URI} /sp/
 RewriteCond %{HTTP_USER_AGENT} !(iPod|iPhone|iPad|Android|Windows\ Phone)
 RewriteRule ^sp/$ / [R]
 RewriteBase /
+</Ifmodule>
