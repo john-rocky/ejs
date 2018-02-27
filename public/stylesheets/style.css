@@ -27,6 +27,14 @@ a {
 body.scroll {
   overflow:auto;}
 
+.center{
+  margin:0 auto;
+}
+
+.text{
+  margin-left:10 auto
+}
+
 #slide {
 width:356px;
 height:434px;

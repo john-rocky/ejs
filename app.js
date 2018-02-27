@@ -21,6 +21,9 @@ var helmet = require('helmet');
 
 var index = require('./routes/index');
 var users = require('./routes/users');
+var colum = require('./routes/colum');
+var mobile = require('./routes/mobile');
+var english = require('./routes/english');
 
 var app = express();
 app.use(helmet());
@@ -39,6 +42,9 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', index);
 app.use('/users', users);
+app.use('/colum', colum);
+app.use('/mobile', mobile);
+app.use('/english', english);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

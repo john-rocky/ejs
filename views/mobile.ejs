@@ -1,102 +1,75 @@
 <!DOCTYPE html>
 <html>
-  <head>
-<meta name="viewport" content="width=1200, minimum-scale=0.1">
-    <title><%= 'むだな技術' %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-    <link rel='stylesheet' type="text/css" href='/stylesheets/slick.css'/>
-    <link rel='stylesheet' type="text/css" href='/stylesheets/slick-theme.css'/>
-    <link rel='stylesheet' type="text/css" href='/stylesheets/sample01.css'/>
-    <link rel='stylesheet' type="text/css" href='/stylesheets/magnific-popup.css'/>
+<head>
+<title><%= 'むだな技術' %></title>
+<link rel='stylesheet' href='/stylesheets/style.css' />
+<link rel='stylesheet' type="text/css" href='/stylesheets/slick.css'/>
+<link rel='stylesheet' type="text/css" href='/stylesheets/slick-theme.css'/>
+<link rel='stylesheet' type="text/css" href='/stylesheets/sample01.css'/>
+<link rel='stylesheet' type="text/css" href='/stylesheets/magnific-popup.css'/>
 
-    
-
-  </head>
-  <body class="scroll">
-<h1><%= 'むだな技術' %></h1>
-<p>
-ようこそ <%= '「むだな技術」へ' %>
-<a href="https://tranquil-oasis-79483.herokuapp.com/mobile">スマホ版</a>
-<a href="https://tranquil-oasis-79483.herokuapp.com/english">English</a>
+</head>
+<body class="scroll">
+<h1><%= 'むだな技術スマホ版' %></h1>
+<p>ようこそ <%= '「むだな技術」へ' %></p>
+<p>こんにちは。ぼくはだいすけです。にっこり。
+<br>これはぼくの技術見本です。
+<br>そのほとんどは「むだ」です。
+<br>ふたたびにっこり(´･ω･`)
 </p>
-
-    <p>こんにちは。ぼくはだいすけです。にっこり。これはぼくの技術見本です。そのほとんどは「むだ」です。ふたたびにっこり(´･ω･`)
-    </p>
-    <h2> 顔のおもいで (DCGAN（深層生成判断ネットワーク))</h2>
-    <p>人工知能がひとりの女性の写真をなんまいもみて（河村友歌さんの写真をつかわせてもらいました）、彼女の顔をおもいだしました。記憶はしばしばあいまいです。
-       <br>だから、思いえがいた顔は、この世界で人工知能の記憶のなかにしか存在しません。彼女はきれいです。
-    </p>
+<h2> 顔のおもいで (DCGAN（深層生成判断ネットワーク))</h2>
+<p>人工知能がひとりの女性の写真をなんまいもみて
+<br>（河村友歌さんの写真をつかわせてもらいました）、
+<br>彼女の顔をおもいだしました。記憶はしばしばあいまいです。
+<br>だから、思いえがいた顔は、この世界で人工知能の記憶のなかにしか存在しません。
+<br>彼女はきれいです。
+</p>
 <p class="relation">
-<span class"static">
-<div id="slide" class="float">
+<div id="slide">
 <ul>
-<li><a class="Single-popup" href="/images/dataset1.png"><img src="/images/yuka_intro.png" width="356" height="434"/></a></li>
-<li><a class="Single-popup" href="/images/dataset2.png"><img src="/images/yuka1.png" width="356" height="434"/></a></li>
-<li><a class="Single-popup" href="/images/dataset1.png"><img src="/images/yuka2.png" width="356" height="434"/></a></li>
-<li><a class="Single-popup" href="/images/dataset2.png"><img src="/images/yuka3.png" width="356" height="434"/></a></li>
+<li><a class="Single-popup" href="/images/dataset1.png"><img src="/images/yuka_intro.png" width="178" height="218"/></a></li>
+<li><a class="Single-popup" href="/images/dataset2.png"><img src="/images/yuka1.png" width="178" height="218"/></a></li>
+<li><a class="Single-popup" href="/images/dataset1.png"><img src="/images/yuka2.png" width="178" height="218"/></a></li>
+<li><a class="Single-popup" href="/images/dataset2.png"><img src="/images/yuka3.png" width="178" height="218"/></a></li>
 </ul>
 </div>
-</span>
-
-<span class="relative1">
-<div class="float">
-<i></i>
-</div>
-</span>
-
-<span class="relative2">
-<div class="float">
-<B><a class="Single-popup" href="/images/manyYuka.gif">人工知能</a></B>
-</div>
-</span>
-
-<span class="relative2">
-<div class="float">
-<u></u>
-</div>
-</span>
-
-<span class="relative3">
+<p>もとの写真<br>(画像クリックでもとの素材一覧がみれます)</p>
+<p>
 <div id="slide2">
 <ul>
-<li><a class="popup-iframe" href="https://www.youtube.com/watch?v=0SJHPnRY8YA"><img src="/images/white.png" width="356" height="434"/></a></li>
-<li><a class="popup-iframe" href="https://www.youtube.com/watch?v=0SJHPnRY8YA"><img src="/images/white.png" width="356" height="434"/></a></li>
-<li><a class="popup-iframe" href="https://www.youtube.com/watch?v=0SJHPnRY8YA"><img src="/images/white.png" width="356" height="434"/></a></li>
-<li><a class="popup-iframe" href="https://www.youtube.com/watch?v=0SJHPnRY8YA"><img src="/images/white.png" width="356" height="434"/></a></li>
-<li><a class="popup-iframe" href="https://www.youtube.com/watch?v=0SJHPnRY8YA"><img src="/images/yuka_intro2.png" width="356" height="434"/></a></li>
-<li><a class="popup-iframe" href="https://www.youtube.com/watch?v=0SJHPnRY8YA"><img src="/images/yuka_memory1.png" width="356" height="434"/></a></li>
-<li><a class="popup-iframe" href="https://www.youtube.com/watch?v=0SJHPnRY8YA"><img src="/images/yuka_memory2.png" width="356" height="434"/></a></li>
-<li><a class="popup-iframe" href="https://www.youtube.com/watch?v=0SJHPnRY8YA"><img src="/images/yuka_memory3.png" width="356" height="434"/></a></li>
+<li><a class="popup-iframe" href="https://www.youtube.com/watch?v=0SJHPnRY8YA"><img src="/images/white.png" width="178" height="218"/></a></li>
+<li><a class="popup-iframe" href="https://www.youtube.com/watch?v=0SJHPnRY8YA"><img src="/images/white.png" width="178" height="218"/></a></li>
+<li><a class="popup-iframe" href="https://www.youtube.com/watch?v=0SJHPnRY8YA"><img src="/images/white.png" width="178" height="218"/></a></li>
+<li><a class="popup-iframe" href="https://www.youtube.com/watch?v=0SJHPnRY8YA"><img src="/images/white.png" width="178" height="218"/></a></li>
+<li><a class="popup-iframe" href="https://www.youtube.com/watch?v=0SJHPnRY8YA"><img src="/images/yuka_intro2.png" width="178" height="218"/></a></li>
+<li><a class="popup-iframe" href="https://www.youtube.com/watch?v=0SJHPnRY8YA"><img src="/images/yuka_memory1.png" width="178" height="218"/></a></li>
+<li><a class="popup-iframe" href="https://www.youtube.com/watch?v=0SJHPnRY8YA"><img src="/images/yuka_memory2.png" width="178" height="218"/></a></li>
+<li><a class="popup-iframe" href="https://www.youtube.com/watch?v=0SJHPnRY8YA"><img src="/images/yuka_memory3.png" width="178" height="218"/></a></li>
 </ul>
 </div>
-</span>
-
 </p>
-
 <p>
-<div class="clear_float"><small>
-<span class="relative6">もとの写真<br>(画像クリックでもとの素材一覧がみれます)</span>
-<span class="relative5">学習過程<br>(画像クリックで学習過程のパラパラ動画がみれます)</span>
-<span class="relative4">人工知能がえがいた記憶<br>(画像クリックで生成過程動画がユーチューブでみれます)</span>
-</small></div>
+<span>人工知能がえがいた記憶<br>(画像クリックで生成過程動画がユーチューブでみれます)</span>
+</small>
 </p>
+
 
 <p>
 <br>
 <br>
 <br>
-<br>
-だけどしばしば, 人工知能はこわい顔の彼女を思いだします。暗黒面をご覧になりたければ,ここをクリックしてください。
+<br>だけどしばしば, 人工知能はこわい顔の彼女を思いだします。
+<br>暗黒面をご覧になりたければ,ここをクリックしてください。
+<a class="Single-popup" href="/images/darkside.gif"/>∑((((((ﾟдﾟ;ﾉ)ﾉ</a>
+<div>－－<a href="https://www.pakutaso.com/">フリー素材「ぱくたそ」</a>
+<br>の河村友歌さんの画像をつかわせていただきました。ありがとうございます。
+</p>
 
-   <a class="Single-popup" href="/images/darkside.gif"/>∑((((((ﾟдﾟ;ﾉ)ﾉ</a>
-
-   <div class="clear_float">－－<a href="https://www.pakutaso.com/">フリー素材「ぱくたそ」</a>の河村友歌さんの画像をつかわせていただきました。ありがとうございます。
-   </div>
-    </p>
-
-    <h2>ねこの顔(DCGAN(深層生成判断ネットワーク))</h2>
-    <p>人工知能がえがいたねこが、ほんもののねこのなかにかくれています。よかったらさがしてみてください。</p>
-    <div class="parent-container">
+<h2>ねこの顔(DCGAN(深層生成判断ネットワーク))</h2>
+<p>人工知能がえがいたねこが、ほんもののねこのなかに
+<br>かくれています。よかったらさがしてみてください。
+</p>
+<div class="parent-container">
     <a href="/images/realcat1.jpg"/><img src="images/c1.png"></a>
     <a href="/images/realcat2.jpg"/><img src="images/c2.png"></a>
     <a href="/images/realcat3.jpg"/><img src="images/c3.png"></a>
@@ -200,9 +173,7 @@
     <br>
     <img src="/images/daisuke.png" width="218" height="218" ></div>
 作者は超イケ面です。
-<p>
-<a href ="https://tranquil-oasis-79483.herokuapp.com">趣味コラム</a>
-</p>
+
     <p>
 <a href="https://twitter.com/messages/compose?recipient_id=&ref_src=twsrc%5Etfw" class="twitter-dm-button" data-screen-name="JapaneseOtaku_w" data-show-count="false">Message @JapaneseOtaku_w</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     <a href="https://twitter.com/share" class="twitter-share-button" data-url="【ページのURL】" data-text="Whatta Super Cool Web Page!" data-via="FunnyDaisuke" data-size="【ボタンのサイズ】" data-related="【ユーザ名】" data-count="【カウント表示の種類】" data-hashtags="【ハッシュタグ】">Tweet</a>
@@ -250,5 +221,6 @@ preloader: false
 </script>
 　　<script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.1.0/velocity.js"></script>
     <script text=''javascript src="/javascripts/jquery.js"></script>
+
    </body>
 </html>
