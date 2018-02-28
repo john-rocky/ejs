@@ -24,6 +24,7 @@ var users = require('./routes/users');
 var colum = require('./routes/colum');
 var mobile = require('./routes/mobile');
 var english = require('./routes/english');
+var columMobile = require('./routes/colum_mobile');
 
 var app = express();
 app.use(helmet());
@@ -45,6 +46,7 @@ app.use('/users', users);
 app.use('/colum', colum);
 app.use('/mobile', mobile);
 app.use('/english', english);
+app.use('/colum_mobile', colum_mobile);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
