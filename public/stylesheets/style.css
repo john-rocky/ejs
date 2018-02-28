@@ -1,11 +1,3 @@
-* {
-margin : 0; /* すべての要素のマージン初期値を 0 に */
-padding : 0; /* すべての要素のパディング初期値を 0 に */
-}
-
-#g_navi {
-width : 100%; /* グロナビの横幅を ウィンドウの100%にする。*/
-}
 
 .body {
   padding: 50px;
@@ -41,11 +33,15 @@ text-align: center;
 }
 
 .text{
-  padding-left:10pxo
+  padding-left:10px
+}
+
+.mobiletext{
+  font-size:200%
 }
 
 #slide {
-width:356px 100%;
+width:356px;
 height:434px;
 Margin-left:0 auto;
 position:relative;
@@ -58,7 +54,7 @@ top:0;
 }
 
 #slide2 {
-width:356px　100％;
+width:356px;
 height:434px;
 }
 
@@ -68,7 +64,7 @@ position:absolute;
 
 i {
 display: block;
-width: 0px 100%;
+width: 0px;
 height: 434px; 
 background: #000000; 
 position:static;
@@ -76,7 +72,7 @@ position:static;
 
 u{
 display: block;
-width: 100px 100%;
+width: 100px;
 height: 100px; 
 background: #ccc; 
 position:relative;
@@ -84,7 +80,7 @@ position:relative;
 
 B{
 display: block;
-width: 100px 100%;
+width: 100px;
 height: 100px; 
 display: table-cell; 
 vertical-align: middle; 
