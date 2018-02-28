@@ -2,7 +2,6 @@
 .body {
   padding: 50px;
   font: "Lucida Grande", Helvetica, Arial, sans-serif;
-  font-size: 42px;
 }
 
 a {
@@ -44,6 +43,7 @@ text-align: center;
 #slide {
 width:356px;
 height:434px;
+Margin-left:0 auto;
 position:relative;
 }
 
