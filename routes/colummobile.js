@@ -9,7 +9,7 @@ router.use(function timeLog(req, res, next) {
 });
 // define the home page route
 router.get('/', function(req, res) {
-  res.render('colum_mobile', { title: 'Express' });
+  res.render('colummobile', { title: 'Express' });
 });
 
 module.exports = router;
