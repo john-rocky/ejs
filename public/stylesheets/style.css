@@ -37,7 +37,8 @@ text-align: center;
 }
 
 .mobiletext{
-  font-size:200%
+  font-size:300%
+  width : 100%; 
 }
 
 #slide {
