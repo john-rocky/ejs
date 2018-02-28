@@ -1,7 +1,12 @@
 
 .body {
   padding: 50px;
-  font: 4em "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.p{
+  font-size: 42px;
+
 }
 
 a {
