@@ -24,6 +24,7 @@ var users = require('./routes/users');
 var colum = require('./routes/colum');
 var mobile = require('./routes/mobile');
 var english = require('./routes/english');
+var piweb = require('./routes/piweb');
 var colummobile = require('./routes/colummobile');
 
 var app = express();
@@ -47,6 +48,7 @@ app.use('/colum', colum);
 app.use('/mobile', mobile);
 app.use('/english', english);
 app.use('/colummobile', colummobile);
+app.use('/piweb', piweb);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
