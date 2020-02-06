@@ -68,16 +68,25 @@
 </p>
 <h2> Type of personal information to be acquired
 </h2>
-<p> 1, Captured image from front camera and user's face data in captured image (face position and facial expression)。
+<p> 1, Captured image from front true depth camera and user's face data in captured image (face position and facial expression).
 <br>2. Cookie data and web beacons may be used to display advertisements.
 </ p>
-<h2> How to use personal information
+<h2> How to collect and use personal information
  </h2>
-<p> 1, The captured image / movie from the front camera and the face data are used in the application to determine the smile of the user, display the content, and synthesize the AR content.
-<br>Specifically, AR content such as animals is displayed on the user's head or in front of the face, the smile of the user is determined, and the content is moved.
-<br> 2. Processing of images, videos, and face data is performed in the user's terminal. Images are not uploaded via network communication.
+<p> 1, When app starts, app starts capturing image by front camera( while camera preview is not displayed, front camera is capturing images).
+<br>App detect user's smile with those captured images.
+<br>App convert those images to numbers, and calcurate facial expression (i.e smile or not) with the machine learning model.
+<br>If app detect the smile, characters react it. It is the purpose of front camera capturing.
+<br>The images captured will not permanently stored or provided to third parties.
+
+<br>In ARCamera mode, the app captures front camera images and collect user's face data(i.e. position and facial expression movement).
+<br>The App puts some AR Creatures on user's face with those face position data.
+<br>Specifically, AR content such as animals is displayed on the user's head or in front of the face.
+<br>And the app detect the smile of the user with facial expression data.With this, ARCreatures react with user's smile in AR mode.
+<br>When user tap record button, app save those AR images or videos into user's photo library.
+<br>2. Processing of images,and face data is performed  only in the user's terminal. Images and face data are not uploaded via network communication.
 <br> 3. Face data is temporarily stored and used in the app only to display content, and is deleted from the app after use.
-<br>  Face data is not permanently stored in the app, uploaded via network communication, or provided to third parties.
+<br>Face data is not permanently stored in the app, uploaded via network communication, or provided to third parties.
 <br> 4. You may be notified of software updates.
 <br> 5. Cookie data may be used to display advertisements.
 <br> 6. Under the law, if the provider determines that it is necessary to pursue the legitimate interests of a third party, we may process personal information.
@@ -98,6 +107,7 @@
 <h2> Method of user involvement
 </h2>
 <p> If you want to stop using the user information by the application, please uninstall the application.
+<br> By this, all of user information will be deleted from device.
 <br> The contents of this privacy policy can be changed without the consent of the user.
 <br> Notification of changes will be made in the form of notifications through the application providing platform, and the privacy policy after the change,
 <br> Effective from the date of notification.
@@ -116,16 +126,24 @@
 </p>
 <h2>取得する個人情報の種類
 </h2>
-<p>１、フロントカメラからのキャプチャ画像および,キャプチャ画像内でのユーザーの顔データ(顔の位置と表情)。
+<p>1、正面の真の深度カメラからキャプチャされた画像とキャプチャされた画像内のユーザーの顔データ（顔の位置と表情）。
 <br>２、広告表示のためにCookieデータやウェブビーコンを使用する場合があります。
 </p>
-<h2>個人情報の利用方法
+<h2>個人情報の収集および使用方法
  </h2>
-<p>１、フロントカメラからのキャプチャ画像・動画、および顔や深度のデータは、アプリケーション内でえユーザーの笑顔をを判別し、コンテンツを表示、およびARコンテンツを合成するために使用します。
-<br>具体的には、ユーザーの頭のうえや顔の前に動物などのARコンテンツを表示し、ユーザーの笑顔を判別し、コンテンツを動かします。
-<br>２、画像と動画、顔データの処理は利用者の端末内で行われます。ネットワーク通信による画像のアップロードは行いません。
-<br>３、顔データは、コンテンツを表示するためにのみアプリ内で一時的に保持、使用され、使用後はアプリから消去されます。
-<br>顔データのアプリ内での恒久的な保存、ネットワーク通信によるアップロード、第三者への提供は行われません。
+<p>1、アプリが起動すると、アプリはフロントカメラによる画像のキャプチャを開始します（カメラプレビューが表示されていない間、フロントカメラは画像をキャプチャしています）。
+<br>アプリは、これらのキャプチャされた画像でユーザーの笑顔を検出します。
+<br>アプリは、これらの画像を数値に変換し、機械学習モデルを使用して計算された表情（つまり、笑顔かどうか）を決定します。
+<br>アプリが笑顔を検出すると、キャラクターはそれに反応します。これが、フロントカメラキャプチャの目的です。
+<br>キャプチャされた画像は永続的に保存されたり、第三者に提供されたりすることはありません。
+<br>ARCameraモードでは、アプリはフロントカメラの画像をキャプチャし、ユーザーの顔データ（つまり、位置と表情の動き）を収集します。
+<br>アプリは、それらの顔の位置データを使用して、ユーザーの顔にいくつかのARクリーチャーを配置します。
+<br>具体的には、動物などのARコンテンツが、ユーザーの頭または顔の前に表示されます。
+<br>また、アプリは表情データを使用してユーザーの笑顔を検出します。これにより、ARCreaturesはARモードでユーザーの笑顔に反応します。
+<br>ユーザーが録画ボタンをタップすると、アプリはそれらのAR画像または動画をユーザーの写真ライブラリに保存します。
+<br>2.画像​​および顔データの処理は、ユーザーの端末でのみ実行されます。画像と顔データはネットワーク通信を介してアップロードされません。
+<br>3.顔データは一時的に保存され、コンテンツを表示するためにのみアプリで使用され、使用後にアプリから削除されます。
+<br>顔データは、アプリに永続的に保存されたり、ネットワーク通信を介してアップロードされたり、第三者に提供されたりすることはありません。
 <br>４、ソフトウェアアップデートの通知をする場合があります。
 <br>５、広告の表示のためcookieデータ等を使用する場合があります。
 <br>６、法令に基づく場合、第三者の正当な利益を追求するために提供者が必要と判断した場合、個人情報を処理する場合があります。
@@ -145,7 +163,7 @@
 </p>
 <h2>利用者関与の方法
 </h2>
-<p>アプリケーションによる利用者情報の利用停止を希望される場合は、アプリケーションをアンインストールしてください。
+<p>アプリケーションによる利用者情報の利用停止を希望される場合は、アプリケーションをアンインストールしてください。これにより、すべてのユーザー情報がデバイスから削除されます。
 <br>当プライバシーポリシーの内容は、利用者の承諾を得ることなく、変更できるものとします。
 <br>変更の通知はアプリケーション提供プラットフォームを通した通知の形で行い、変更後のプライバシーポリシーは、
 <br>通知された時点から効力を生じるものとします。
